@@ -88,7 +88,7 @@ def is_numeric(n):
 if __name__ == '__main__':
     args = sys.argv[1:]
     args_len = len(args)
-    if (args_len == 1) and (not is_numeric(args[0])):
+    if (args_len > 1) or (args_len < 1) or (not is_numeric(args[0])):
         print('example: python {0} 3'.format(sys.argv[0]))
         exit()
 
