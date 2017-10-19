@@ -1,5 +1,5 @@
 # guess-noga-code
-try to guess NOGA/NACE code from company activity description with n-grams
+try to guess NOGA/NACE code from the company's activity description with n-grams
 
 cd ngrams/  
 bunzip2 1.gram.bz2  
