@@ -1,6 +1,8 @@
 # guess-noga-code
 try to guess NOGA/NACE code from the company's activity description with n-grams
 
+there is some pre-trained data in the ngrams dir that the web api can use
+
 cd ngrams/  
 bunzip2 1.gram.bz2  
 bunzip2 2.gram.bz2  
