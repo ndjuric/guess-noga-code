@@ -1,5 +1,5 @@
 # guess-noga-code
-try to guess NOGA/NACE code from the company's activity description with n-grams
+try to guess NOGA/NACE code from the company's activity description by using n-gram analysis
 
 there is some pre-trained data in the ngrams dir that the web api can use
 
